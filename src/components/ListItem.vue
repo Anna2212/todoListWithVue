@@ -55,7 +55,6 @@ export default {
       this.$emit('like', todo);
     },
     detail(todo) {
-      debugger;
       this.$router.push({ name: 'Details', params: { todo, id: todo.id } });
     },
   },
